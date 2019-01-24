@@ -12,5 +12,5 @@ matrix:
   - python: "3.8-dev"
 
 script:
- - config
- - reddit_bot
+ - python config.py
+ - python reddit_bot.py
