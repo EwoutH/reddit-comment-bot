@@ -30,7 +30,7 @@ def run_bot(r, comments_replied_to):
 
 	print("Search Completed.")
 
-	print comments_replied_to
+	print(comments_replied_to)
 
 	print("Sleeping for 10 seconds...")
 	#Sleep for 10 seconds...		
