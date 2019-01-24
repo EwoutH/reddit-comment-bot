@@ -49,7 +49,7 @@ def get_saved_comments():
 
 r = bot_login()
 comments_replied_to = get_saved_comments()
-print comments_replied_to
+print(comments_replied_to)
 
 while True:
 	run_bot(r, comments_replied_to)
